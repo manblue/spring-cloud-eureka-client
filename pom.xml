@@ -58,6 +58,11 @@
         	<artifactId>DistributedLock-demo-stater</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+        	<groupId>robb-plugin-asm-handler</groupId>
+        	<artifactId>robb-plugin-asm-handler</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

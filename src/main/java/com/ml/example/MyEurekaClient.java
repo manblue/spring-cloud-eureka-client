@@ -18,6 +18,7 @@ import com.ml.example.service.RobbService;
 import com.ml.example.service.impl.HellowServiceImpl;
 import com.ml.example.service.impl.RobbService1Impl;
 import com.ml.example.service.impl.RobbService2Impl;
+import com.robb.asm.DefaultManager2Controller;
 
 //@EnableEurekaClient
 //@SpringBootApplication(scanBasePackages={"com.example","com.ml"})
@@ -78,6 +79,8 @@ public class MyEurekaClient {
 			robbService.home("123");
 			robbService.setService(new RobbService2Impl());
 			robbService.home("123");
-	}
+			
+			Class cc = DefaultManager2Controller.buildControClass(ro)
+			}
 
 }
